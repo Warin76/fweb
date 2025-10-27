@@ -1,0 +1,79 @@
+body {
+  background: #e6ecf0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.login-container {
+  background: #f0f4f8;
+  padding: 40px;
+  border-radius: 10px;
+  width: 320px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.avatar {
+  width: 80px;
+  height: 80px;
+  background: #d0d7de url('https://cdn-icons-png.flaticon.com/512/847/847969.png') center/60% no-repeat;
+  border-radius: 50%;
+  margin: 0 auto 15px;
+}
+
+h2 {
+  margin-bottom: 25px;
+  color: #333;
+}
+
+.input-group {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.input-group i {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  color: #888;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px 35px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+.remember {
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.btn-login {
+  width: 100%;
+  background-color: #00a0d2;
+  border: none;
+  color: #fff;
+  padding: 10px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.btn-login:hover {
+  background-color: #0086b3;
+}
+
+.forgot-link {
+  display: block;
+  margin-top: 10px;
+  color: #888;
+  text-decoration: none;
+  font-size: 13px;
+}
